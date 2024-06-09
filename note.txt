@@ -1,0 +1,11 @@
+install CI 4 lewat cmd dan composer:
+composer create-project codeigniter4/appstarter basic-CI4-case
+
+buat jalanin CI4 :
+php spark serve
+
+buat table baru:
+php spark make:migration testimonial
+
+kalau udah selesai setting migrasi db:
+php spark migrate
